@@ -1,1 +1,33 @@
+``` java
+new CountDownTimer(5000,1000){
 
+            @Override
+            public void onTick(long millisUntilFinished) {
+
+            }
+
+            @Override
+            public void onFinish() {
+
+            }
+        }.start();
+
+1. new CountDownTimer(1000, 5000)
+CountDownTimer 类的构造方法需要两个参数：
+
+第一个参数 1000：表示倒计时的总时长，单位是毫秒（ms）。也就是说倒计时一共是 1000ms，即 1 秒。
+
+第二个参数 5000：表示每次更新的时间间隔，单位是毫秒。也就是说每隔 5000ms（即5秒）会调用一次 onTick() 方法。
+
+但是，这里的构造方式有点问题，因为第二个参数 5000 大于第一个参数 1000，通常情况下这个时间间隔应该小于倒计时总时间。所以这个逻辑可能没有达到预期效果，或者代码本身有错误。如果想让 onTick() 每 1 秒执行一次，第二个参数应该设置为 1000。
+
+2. onTick(long millisUntilFinished)
+这是 CountDownTimer 的一个方法，它会在每个时间间隔（5000ms）触发一次。在这个方法内，可以执行一些倒计时期间需要重复执行的操作，比如更新UI、显示倒计时剩余时间等。
+
+millisUntilFinished 是剩余时间，单位是毫秒。每次 onTick() 被调用时，这个值都会减少，直到倒计时结束。
+
+3. onFinish()
+这个方法在倒计时结束时调用。即当倒计时完成，剩余时间为零时，onFinish() 会被执行。在这个方法内可以放置需要在倒计时结束时执行的操作，比如启动新的活动、显示提示信息等。
+
+4. .start()
+start() 方法启动倒计时器，倒计时会开始执行。
