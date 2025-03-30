@@ -30,9 +30,9 @@ logo                     : "https://mpimg.cn/view.php/6a2f6e568c03c6a8e82a493e0f
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200
-enable_copy_code_button  : # true, false (default)
-copyright                : # "copyright" name, defaults to site.title
-copyright_url            : # "copyright" URL, defaults to site.url
+enable_copy_code_button  : true
+copyright                : "© 2025 XiaoXin"
+copyright_url            : "https://ww.aiiz.cn/kBxDjk"
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
