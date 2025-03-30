@@ -25,8 +25,8 @@ description              : "An amazing website."
 url                      : "https://XiaoXingyy.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "XiaoXingyy/your-repo"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+teaser                   : "/assets/images/500x300.png"
+logo                     : "/assets/images/500x300.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200
