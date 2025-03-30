@@ -17,16 +17,16 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 # Site Settings
 locale                   : "zh-CN"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "飞翔"
+title                    : "学习圈"
 title_separator          : "-"
-subtitle                 : "让我们一起飞翔"
+subtitle                 : "穷尽一生追寻的究竟为何物呢？"
 name                     : "XiaoXin"
 description              : "An amazing website."
 url                      : "https://XiaoXingyy.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "XiaoXingyy/your-repo"
-teaser                   : "/assets/images/logo.png"
-logo                     : "/assets/images/logo.png"
+teaser                   : "https://mpimg.cn/view.php/6a2f6e568c03c6a8e82a493e0f8e0d23.jpg"
+logo                     : "https://mpimg.cn/view.php/6a2f6e568c03c6a8e82a493e0f8e0d23.jpg"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200
@@ -114,7 +114,7 @@ analytics:
 # Site Author
 author:
   name             : "XiaoXin"
-  avatar           : "/assets/images/userImage.png"
+  avatar           : "https://mpimg.cn/view.php/6a2f6e568c03c6a8e82a493e0f8e0d23.jpg"
   bio              : "穷尽一生追寻的是何物呢？"
   location         : "江苏"
   email            : "3636425664@qq.com"
