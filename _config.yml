@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "sunrise" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "zh-CN"
-rtl                      : true
+rtl                      : false
 title                    : "学习圈"
 title_separator          : "-"
 subtitle                 : "穷尽一生追寻的究竟为何物呢？"
@@ -28,7 +28,7 @@ repository               : "XiaoXingyy/your-repo"
 teaser                   : "https://mpimg.cn/view.php/6a2f6e568c03c6a8e82a493e0f8e0d23.jpg"
 logo                     : "https://mpimg.cn/view.php/fe8fbf4705529c7d96c716dbfa0bef94.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-breadcrumbs              : # true, false (default)
+breadcrumbs              : true
 words_per_minute         : 200
 enable_copy_code_button  : true
 copyright                : "XiaoXin"
