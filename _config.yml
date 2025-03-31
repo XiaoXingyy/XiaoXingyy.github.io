@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "sunrise" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "zh-CN"
-rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
+rtl                      : true
 title                    : "学习圈"
 title_separator          : "-"
 subtitle                 : "穷尽一生追寻的究竟为何物呢？"
@@ -34,7 +34,7 @@ enable_copy_code_button  : true
 copyright                : "XiaoXin"
 copyright_url            : "https://ww.aiiz.cn/kBxDjk"
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+  provider               : true
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
