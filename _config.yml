@@ -19,8 +19,8 @@ locale                   : "zh-CN"
 rtl                      : false
 title                    : "学习圈"
 title_separator          : "-"
-subtitle                 : "穷尽一生追寻的究竟为何物呢？"
-name                     : "XiaoXin"
+subtitle                 : "创业失败重生到17岁 第一次一定赢"
+name                     : "404仙界漫游:)"
 description              : "An amazing website."
 url                      : "https://XiaoXingyy.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -113,9 +113,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "XiaoXin"
+  name             : "404仙界漫游:)"
   avatar           : "https://mpimg.cn/view.php/6a2f6e568c03c6a8e82a493e0f8e0d23.jpg"
-  bio              : "穷尽一生追寻的究竟为何物呢？"
+  bio              : "创业失败重生到17岁 第一次一定赢"
   location         : "江苏宿迁"
   email            : "3636425664@qq.com"
   links:
